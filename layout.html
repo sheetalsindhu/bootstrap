@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+    <title>Layout</title>
+</head>
+<style>
+    .box {
+        border: 1px solid black;
+        font-size: 40PX;
+        text-align: center;
+    }
+
+    .boX {
+        border: 1px solid peru;
+        font-size: 30PX;
+    }
+</style>
+
+<body>
+
+    <!-- layout 1 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3 col-md-3 col-sm-6 box ">box - 1</div>
+            <div class="col-xl-3 col-md-3 col-sm-6 box">box - 2</div>
+            <div class="col-xl-3 col-md-3 col-sm-6 box">box - 3</div>
+            <div class="col-xl-3 col-md-3 col-sm-6 box">box - 4</div>
+
+        </div>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+    <!-- layout 2 -->
+    <div class="container">
+        <div class="row p-2 boX ">
+            <div class="col boX">
+                <div class="row">
+                    <div class="col-xl-12 col-md-12 bg-warning boX">
+                        navigation
+                    </div>
+                </div>
+
+                    <div class="row mt-2">
+                        <div class="col-xl-8 col-md-12 bg-danger boX"> Left Box </div>
+
+                    <div class="col-xl-4 col-sm-12 mt-1">
+                        <div class=" text-light bg-success p-2 boX">Right Box - 1</div>
+                        <div class=" text-light bg-success p-2 mt-2 boX">Right Box - 2</div>
+                        <div class=" text-light bg-success  p-2 mt-2 boX">Right Box - 3</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+
+
+    <!-- layout 3 -->
+    <div class="container">
+        <div class="row p-2 boX ">
+            <div class="col boX">
+                <div class="row">
+                    <div class="col-xl-12  bg-warning boX">
+                        navigation
+                    </div>
+                </div>
+    
+                <div class="row mt-2">
+                    <div class="col-xl-3 bg-danger  pb-5 boX">Box 1 </div>
+                    <div class="col-xl-3 bg-success  pb-5 boX">Box 2 </div>
+                    <div class="col-xl-3 bg-info  pb-5 boX">Box 3</div>
+                    <div class="col-xl-3 bg-secondary  pb-5 boX">Box 4 </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
